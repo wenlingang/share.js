@@ -1,23 +1,13 @@
-[Share.js](http://overtrue.me/share.js/)
+Share.js
 ===
+
+> 🚨 此项目已经年久失修，其实分享就是一个个链接而已，每个链接里传递一些内容，所以定制需求比较高的话建议自己实现，没啥难度。
+> URL 写法请参考：https://github.com/overtrue/share.js/blob/master/src/js/social-share.js#L56-L64
 
 一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。
 
 ![qq20151127-1 2x](https://cloud.githubusercontent.com/assets/1472352/11433126/05f8b0e0-94f4-11e5-9fca-74dc9d1b633f.png)
 
-
-[DEMO](http://overtrue.github.io/share.js/)
-
-或者直接浏览我的博客 http://overtrue.me 或者 http://laravel.so 内容页查看效果。
-
-<p align="center">
-  <br>
-  <b>创造不息，交付不止</b>
-  <br>
-  <a href="https://www.yousails.com">
-    <img src="https://yousails.com/banners/brand.png" width=350>
-  </a>
-</p>
 
 # 安装
 
@@ -188,23 +178,6 @@ requirejs(['share'],function (){
 本项目中二维码生成部分用到了开源组件：[lrsjng/jquery-qrcode](https://github.com/lrsjng/jquery-qrcode) (MIT License)
 
 # 贡献你的代码
-
-## 安装 gem sass
-
-```
-sudo apt-get install libssl-dev
-sudo apt-get install zlib1g-dev
-mkdir ~/rubysass && cd ~/rubysass
-wget https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
-wget https://rubygems.org/rubygems/rubygems-2.6.7.zip
-sudo apt-get update && sudo apt-get install -y tar unzip
-tar zxvf ruby-2.3.1.tar.gz && unzip rubygems-2.6.7.zip
-cd ruby-2.3.1
-./configure && make && sudo make install
-cd ~/rubysass/rubygems-2.6.7
-sudo ruby setup.rb
-cd ~ && sudo gem install sass
-```
 
 ## 安装node_modules
 
